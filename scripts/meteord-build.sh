@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "building the Meteor app"
 cd /app
 meteor build --directory /tmp/the-app --server=localhost
 
